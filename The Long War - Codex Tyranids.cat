@@ -1,0 +1,2000 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bbd8-a540-427c-19d1" name="The Long War - Codex Tyranids" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="5a96-11db-b761-54f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="6ce0-fd6b-2a83-a367" name="The Long War - Codex Tyranids v3.0" shortName="Codex Tyranids"/>
+  </publications>
+  <forceEntries>
+    <forceEntry id="da2e-4bf7-8d11-adb9" name="Allied Detachment" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5272-a8ea-7469-51a1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="330b-2faa-0e10-3576" name="HQ" hidden="false" targetId="87db-dd77-43c7-2283" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86e9-3edf-84a4-e6f5" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2504-19ca-09e4-3c1e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="280c-5070-ad96-9c16" name="Troop" hidden="false" targetId="1966-eed8-9866-bcad" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b4ea-2921-f3b2-9646" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="88c0-2806-d059-20b3" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ad93-33f4-74aa-3602" name="Elite" hidden="false" targetId="e2ce-2e0b-e92f-3060" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4a2b-6c15-caf9-3e47" type="min"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2440-1244-cc4f-5931" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="76ae-5467-e9ce-c81f" name="Fast Attack" hidden="false" targetId="8518-3f3b-d289-d9aa" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff99-f9d7-1bf8-e3cc" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="271c-6b65-1ce3-07a6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4e0d-7acf-4abb-fca9" name="Heavy Support" hidden="false" targetId="e9ef-7ff2-41ce-8166" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="603a-2409-6a64-c363" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ce0e-0d89-5048-4043" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="792f-dec3-27e7-7ecb" name="Crucible Detachment" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11fe-b8d2-2e9a-fd5e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1a1e-b65b-f493-59f7" name="HQ" hidden="false" targetId="87db-dd77-43c7-2283" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="58da-75a1-439b-d795" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fa5c-a08d-6971-0407" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8be0-9bf1-e504-dc22" name="Troop" hidden="false" targetId="1966-eed8-9866-bcad" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a6cf-5763-862d-e85a" type="min"/>
+            <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d0c7-d267-6a2a-8d7e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="9102-ebd3-d53a-a996" name="Elite" hidden="false" targetId="e2ce-2e0b-e92f-3060" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c74b-b0cc-e07f-aa95" type="min"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="187f-db56-2335-42d9" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d81f-83ab-a8ea-7eba" name="Fast Attack" hidden="false" targetId="8518-3f3b-d289-d9aa" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f868-d50b-40c4-5332" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f282-657e-2551-5795" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3190-498d-264b-9055" name="Heavy Support" hidden="false" targetId="e9ef-7ff2-41ce-8166" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b50d-3040-6ee8-56b1" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c53-7256-21b3-1d4c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4582-a054-c723-346d" name="Flyer" hidden="false" targetId="5b95-9566-207a-c690" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="487a-77e6-c3ae-a611" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0aa1-601a-166e-b26c" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b4f0-5ffa-b74f-8d47" name="Fortification" hidden="false" targetId="771e-1cad-127e-832f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="124d-9996-54f2-6bcf" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3426-7783-8bcc-2d7e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2d96-1a0e-2b0f-69d0" name="Lord Of War" hidden="false" targetId="96ed-6242-175c-50f2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e549-fe3a-bdc4-2bb4" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b361-097c-7062-638d" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="1bd4-53bd-4537-c158" name="Crusade Detachment" hidden="false">
+      <categoryLinks>
+        <categoryLink id="e1a8-0a09-ac70-4e00" name="HQ" hidden="false" targetId="87db-dd77-43c7-2283" primary="false">
+          <modifiers>
+            <modifier type="set" field="94fe-e5ad-5f6b-4d1d" value="5.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4312-ec46-403b-b2e1" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d66-fb48-0d56-4217" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="94fe-e5ad-5f6b-4d1d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="cd4b-560e-cdff-7c96" name="Troop" hidden="false" targetId="1966-eed8-9866-bcad" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="92fe-11a9-6c4c-f8b2" type="min"/>
+            <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9912-d681-16e8-10c0" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="23c7-3915-ae09-31a7" name="Elite" hidden="false" targetId="e2ce-2e0b-e92f-3060" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e69-b2fd-675d-8cb9" type="min"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ec2a-8624-b365-0325" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2a3e-6f53-76aa-33c2" name="Fast Attack" hidden="false" targetId="8518-3f3b-d289-d9aa" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e70-4aba-ffcd-024d" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6110-34c9-a1c1-5056" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2649-6ab6-726a-e5cc" name="Heavy Support" hidden="false" targetId="e9ef-7ff2-41ce-8166" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e934-2f13-bb47-3109" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bd55-5a0e-d802-d926" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5128-8080-d011-6131" name="Flyer" hidden="false" targetId="5b95-9566-207a-c690" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d8e5-e310-014c-dbf9" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b326-a5e7-db6f-fec2" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8cea-5386-74bb-91aa" name="Fortification" hidden="false" targetId="771e-1cad-127e-832f" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f68b-f110-b7e2-26d1" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d32b-2183-f7f6-4222" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="56e7-1694-d217-52ae" name="Lord Of War" hidden="false" targetId="96ed-6242-175c-50f2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2145-9311-ba79-709e" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97ab-aa89-453f-2792" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="bcbf-2cad-3771-b3d7" name="Shadow Detachment" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62d0-cd6a-1117-ab3a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7a1a-7ffc-875b-de04" name="HQ" hidden="false" targetId="87db-dd77-43c7-2283" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ff7-38ff-0b4e-0802" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b737-7f5f-2cfd-db5b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="78d6-535b-070d-0b54" name="Troop" hidden="false" targetId="1966-eed8-9866-bcad" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c27-2336-7ae8-ba0e" type="min"/>
+            <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8eed-ec0e-6ec4-5176" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2960-be8b-268a-00e9" name="Elite" hidden="false" targetId="e2ce-2e0b-e92f-3060" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ddf-ce35-35a0-a20f" type="min"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="251a-18f7-7f69-1614" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="84e5-6005-972c-58f3" name="Fast Attack" hidden="false" targetId="8518-3f3b-d289-d9aa" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bcfe-0ee9-b438-ef9c" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="393e-1ef7-9513-d706" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="dee7-7ed3-a1dd-5a93" name="Heavy Support" hidden="false" targetId="e9ef-7ff2-41ce-8166" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9289-e5b4-8404-df4d" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="905a-c2a2-3533-ac08" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b96d-8f5a-4229-747d" name="Flyer" hidden="false" targetId="5b95-9566-207a-c690" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1796-bf24-0575-232b" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9009-b9dd-e2b2-4391" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="ae95-e856-bccc-d585" name="Void Detachment" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12f9-1f6f-b365-e850" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c27d-5ae3-ffb5-599f" name="HQ" hidden="false" targetId="87db-dd77-43c7-2283" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0100-3d4e-8242-60b3" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="40d6-64df-f867-fec1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8e9b-c468-f292-d4a2" name="Troop" hidden="false" targetId="1966-eed8-9866-bcad" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a7f9-12e2-aa18-58e3" type="min"/>
+            <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8a08-9e97-8204-6f7c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="9863-23e9-e375-06d3" name="Elite" hidden="false" targetId="e2ce-2e0b-e92f-3060" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b8d-2985-97ab-694d" type="min"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2893-1166-7656-2123" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="3d08-a667-97f8-85c0" name="Fast Attack" hidden="false" targetId="8518-3f3b-d289-d9aa" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5c1a-32d1-6f38-7a7f" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b12-c424-8210-3f19" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5898-f52a-9232-e5d5" name="Heavy Support" hidden="false" targetId="e9ef-7ff2-41ce-8166" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d139-9795-0c0d-8bd6" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="18cb-b463-929a-87fc" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="5bc3-6111-98c4-ae9f" name="Hive Tyrant" hidden="false" collective="false" import="true" targetId="4312-ec46-403b-b2e1" type="selectionEntry"/>
+    <entryLink id="d0fe-60d2-ff38-55ec" name="Hormagaunt Brood" hidden="false" collective="false" import="true" targetId="8d12-a5d0-ac93-4fe0" type="selectionEntry"/>
+    <entryLink id="a0f4-48c1-ef06-6538" name="Barbgaunt Brood" hidden="false" collective="false" import="true" targetId="1f5c-cfd9-ca6c-38ba" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="52c5-dc19-a976-0b20" name="Spine Fists" publicationId="6ce0-fd6b-2a83-a367" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5954-9013-8291-1e82" name="Spine Fists" hidden="false" targetId="56fc-b0fd-b321-54fe" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e6a4-e742-4500-45ef" name="Fleshborer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1e1f-ff2a-41c8-855f" name="Fleshborer" hidden="false" targetId="b6a2-47f4-1b0b-ad60" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44e7-25f1-e2f7-6c7b" name="Devourer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="78f7-5ea2-8bde-4edd" name="Devourer" hidden="false" targetId="0e6a-f512-c9f3-6ba1" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d64-5849-a7bb-0529" name="Deathspitter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="85ee-5424-e186-906f" name="Deathspitter" hidden="false" targetId="0b71-0785-7f60-6163" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2eb5-b930-c7b7-1940" name="Shardlauncher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c282-7d71-8a53-9496" name="Shardlauncher" hidden="false" targetId="e43e-0a2f-d4e5-ada5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4315-2089-7577-76f0" name="Deathspitters with Slimer Maggots" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3754-549c-2dad-f965" name="Deathspitters with Slimer Maggots" hidden="false" targetId="6b3c-67ec-a149-9b46" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f479-0642-a106-5d54" name="Devourers with Brainleech worms" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9f29-a59a-ae44-e26e" name="Devourers with Brainleech worms" hidden="false" targetId="dce7-bca7-cd56-b339" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7db0-02d2-2ed0-1789" name="Barblauncher" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7978-a719-776a-e678" name="Barblauncher" hidden="false" targetId="11d1-e047-0cfd-e6b1" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b32e-1646-b044-9ccd" name="Bio Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="98a1-a1a4-4859-dd55" name="Bio Cannon" hidden="false" targetId="4069-03d3-39c3-2415" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3cf-1662-6675-0f52" name="Fleshborer Hive" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d5cc-d457-0e9f-ef5f" name="Fleshborer Hive" hidden="false" targetId="d5ca-adff-a60f-5b6e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="991f-fa45-a896-f5f9" name="Impaler Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e764-c357-1212-4fbd" name="Impaler Cannon" hidden="false" targetId="7d0f-7e93-b7ff-d7d0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="754e-96b0-474e-3ac9" name="Tentaclids" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2b6b-6ae6-2669-713e" name="Tentaclids" hidden="false" targetId="9b47-d3e0-69a9-d7ac" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2075-21f1-d98b-5529" name="Strangleweb" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5f00-6154-fd14-c522" name="Strangleweb" hidden="false" targetId="bcad-5c6e-31cd-8713" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed8c-4f15-980c-acd6" name="Barbed Strangler" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3357-10cb-1231-171a" name="Barbed Strangler" hidden="false" targetId="c560-5e30-4887-aaa3" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bd8-943c-93cc-d611" name="Stranglethorn Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="db96-4573-d1bf-f7d4" name="Stranglethorn Cannon" hidden="false" targetId="96e5-46ba-b012-7470" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aba7-6b24-e68f-74bf" name="Flamespurt" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7a0e-2161-7ee6-01ae" name="Flamespurt" hidden="false" targetId="ff94-26ec-3253-6168" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e927-1f48-3658-3231" name="Drool Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="83a3-7f8a-8dce-09f4" name="Drool Cannon" hidden="false" targetId="f0a6-9cfa-269c-33ce" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3792-7779-2b56-c906" name="Acid Spray" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d8ce-b719-bf90-fad0" name="Acid Spray" hidden="false" targetId="743d-5747-eda8-db32" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="06c2-472a-f510-2eda" name="Bio Acid Spray" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d47f-596e-5724-1c57" name="Bio Acid Spray" hidden="false" targetId="3bd3-1521-38b7-618a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7178-90fe-09af-0524" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="021e-b11c-7e42-7df8" name="Close Combat Weapon" hidden="false" targetId="b0bb-08dd-2c34-712f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5d03-f3c0-4b8b-b944" name="Venom Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1ce3-817c-7fb3-45f7" name="Venom Cannon" hidden="false" targetId="ea9a-729d-0514-7565" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b56c-c3ff-4456-23d7" name="Heavy Venom Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="106e-6b49-eeb1-272a" name="Heavy Venom Cannon" hidden="false" targetId="19aa-0d7f-7046-729b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c74-3c57-6c04-564f" name="Bio-Plasmic Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="92d1-23d8-6b23-1737" name="Bio-Plasmic Cannon" hidden="false" targetId="3c2f-0ca5-7a98-0492" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7d2-2a01-2507-94a8" name="Rupture Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e1a5-58c0-e590-7aed" name="Rupture Cannon" hidden="false" targetId="7c94-7798-0b5f-41e8" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="395c-b96a-61d6-43d6" name="Bio Plasma" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1c80-b12f-0297-eca2" name="Bio Plasma" hidden="false" targetId="7987-8965-d592-c615" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4b8-ad55-41c6-8200" name="Scything Talons" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c77f-737e-c709-7b67" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af23-e2e9-8220-1adf" name="Monstruous Scything Talons" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a8aa-1cf0-d633-bc1e" name="Monstruous Scything Talons" hidden="false" targetId="4140-98ea-1103-9490" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7858-3f29-b9f4-9c33" name="Rending Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="18f8-a569-6c61-24ba" name="Rending Claws" hidden="false" targetId="ae9e-110b-2ee4-3f5b" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="23e1-50fd-e381-d8b8" name="Monstruous Rending Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8de1-4043-5844-07cd" name="Monstruous Rending Claws" hidden="false" targetId="8f01-64a1-a7ee-9800" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aab5-9f5f-b44b-b460" name="Bone Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a861-f665-29cd-f7b8" name="Bone Sword" hidden="false" targetId="b619-5e9f-5deb-dfc9" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b90-72c6-64ec-c91e" name="Monstruous Bone Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b0e8-cf60-f71b-67c2" name="Monstruous Bone Sword" hidden="false" targetId="855b-2195-370a-0e99" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="115f-1244-d204-dd9d" name="Lash Whip" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="81e5-d80e-5f36-0e6d" name="Lash Whip" hidden="false" targetId="81ea-3cdb-e339-b0aa" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fdc9-9f2c-53c3-3b04" name="Grasping Talons" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9174-0003-960b-49fe" name="Grasping Talons" hidden="false" targetId="8157-d924-082c-a37e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc02-acc8-9301-86d5" name="Crushing Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f8b1-ad5c-0441-ea17" name="Crushing Claws" hidden="false" targetId="fcd1-30a2-a7e8-d45f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd88-1f0c-fa93-c247" name="Monstruous Crushing Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1f9a-7e04-9169-532d" name="Crushing Claws" hidden="false" targetId="fcd1-30a2-a7e8-d45f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8fc4-6ea8-07d1-4809" name="Ravenous Maw" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d54a-dd72-4162-7485" name="Ravenous Maw" hidden="false" targetId="0310-e00b-0c31-6c7a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7241-36e9-13a7-9bf0" name="Shovelling Claws" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6e7c-4ef0-f73a-632d" name="Shovelling Claws" hidden="false" targetId="90ee-de58-3952-cea5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2cc4-6f1d-aa84-2d46" name="Grasping Tongue" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f4c3-4ee3-cd2e-3a9b" name="Grasping Tongue" hidden="false" targetId="d7f0-b614-1bea-bd85" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d7e-4cba-8ce0-83dc" name="Hierodule Scything Talons" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="22ef-a4c3-cf96-1e6c" name="Hierodule Scything Talons" hidden="false" targetId="de92-b6d8-ddde-69c0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="21ed-0153-9637-5d8a" name="Bone Sabres" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3755-6224-ab3c-9ed0" name="Bone Sabres" hidden="false" targetId="9277-1e33-a8e2-39e4" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10c9-2746-79d7-0491" name="Powerful Limbs" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1f8d-cfd7-fa40-4d7a" name="Powerful Limbs" hidden="false" targetId="b71d-b018-9317-a2c5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="51ff-c8ae-c0b6-1acb" name="Scything Wings" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5d58-0e49-dbdc-31e5" name="Scything Wings" hidden="false" targetId="fe64-df5b-2e99-0ae8" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d339-1bc2-b49d-ae8f" name="Distensible Jaw" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="39e7-9fe4-ccc9-1b7f" name="Distensible Jaw" hidden="false" targetId="c612-da8a-2b4d-651f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="58b0-a638-5e82-d911" name="Prehensile Tail" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b9a5-ceef-3c03-f61f" name="Prehensile Tail" hidden="false" targetId="ded9-b605-d278-8234" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="943d-7bc0-00a1-7ab5" name="Grasping Tail" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cab3-545e-c108-033e" name="Grasping Tail" hidden="false" targetId="0078-614d-0621-aab5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec47-3d2f-ef77-b93e" name="Wicked Spur" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="de89-fc5e-9fbe-f112" name="Wicked Spur" hidden="false" targetId="0a2b-f425-ba81-df50" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4633-2e81-d348-5e87" name="Toxin Spike" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="702a-8c6d-dcca-5700" name="Toxin Spike" hidden="false" targetId="1678-5378-b418-7534" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2108-fb69-f48f-2f4d" name="Bio Static Rattle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0229-9557-1271-0a23" name="Bio Static Rattle" hidden="false" targetId="3c3a-5847-cecc-b7af" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d06-0390-6d88-2ef9" name="Bone Mace" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="99a0-3d16-98f7-9fb0" name="Bone Mace" hidden="false" targetId="4443-7d07-82a1-9160" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a7b-e2f4-b98c-d23d" name="Thresher Scythe" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1401-69e3-8776-5e7f" name="Thresher Scythe" hidden="false" targetId="612b-a338-627c-8f9c" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d126-a08f-c08b-3c49" name="Shock Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1f31-6cdc-218b-c3f8" name="Shock Cannon" hidden="false" targetId="182d-f836-dbbd-818c" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="295f-0f49-1ff6-25bf" name="Bio Electric Pulse" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e853-0bb6-2d32-1983" name="Bio Electric Pulse" hidden="false" targetId="5a60-b1fb-fd9f-d2b8" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e730-0a49-de4e-f550" name="Toxic Lashes" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="22b8-8475-d4b0-9c6c" name="Toxic Lashes (Melee)" hidden="false" targetId="3322-d37f-3250-1acd" type="profile"/>
+        <infoLink id="bbad-135a-eb1d-bf8b" name="Toxic Lashes (Shooting)" hidden="false" targetId="273c-84ed-3d72-97fd" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e6b0-3229-7a23-265d" name="Choking Spores" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b3cb-0ff6-1542-280a" name="Choking Spores" hidden="false" targetId="fc90-2767-13e7-4db8" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="960c-6104-cd8d-0878" name="Wings" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6b9c-e347-7e06-9641" name="Wings" hidden="false" targetId="41c7-31b3-53d8-e1a1" type="profile"/>
+        <infoLink id="19ab-9372-1425-56f9" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1d33-d868-aaa7-5b5b" name="Deep Strike" hidden="false" targetId="4094-e926-d058-9bc6" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0c2f-9880-2d57-6ea0" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c1bd-a017-18c8-96f6" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7bf2-74dc-3533-fd58" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38ee-f153-9f63-f973" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7707-f938-baeb-0c97" name="Additional Warlord Trait" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c2f-9880-2d57-6ea0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06b0-4c3f-ba1f-dd6b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5a0-6fc5-9ac2-3785" name="Alien Cunning" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d364-a851-8943-19c4" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8941-7290-cb6d-b0e7" name="Alien Cunning" hidden="false" targetId="3fcb-a251-8ef5-7a7f" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2552-9027-662a-b6cc" name="Heightened Senses" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="045b-5c97-a5fa-a4d1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="370d-4d62-632b-a68e" name="Heightened Senses" hidden="false" targetId="db7f-3cf7-217c-efa8" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de28-9ac6-fe16-094c" name="Synaptic Lynchpin" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="96b5-6955-fa47-8a34" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8b04-3967-de29-6943" name="Synaptic Lynchpin" hidden="false" targetId="183a-f43a-c310-0c3c" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f710-b102-2c3d-c09b" name="Psychic Barrier" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0282-fb03-6f08-ac83" name="Psychic Barrier" hidden="false" targetId="41fc-7551-eec3-dea3" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="547e-4cd3-a44c-81aa" name="Lash Whip and Monstruous Bone Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a23d-e916-cc52-a10e" name="Lash Whip" hidden="false" targetId="81ea-3cdb-e339-b0aa" type="profile"/>
+        <infoLink id="cf38-2c0d-6594-31b5" name="Monstruous Bone Sword" hidden="false" targetId="855b-2195-370a-0e99" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1535-851e-58fa-d2a7" name="Lash Whip and Bone Sword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d80d-96bb-8659-0e30" name="Lash Whip" hidden="false" targetId="81ea-3cdb-e339-b0aa" type="profile"/>
+        <infoLink id="841e-c045-34fe-0e21" name="Bone Sword" hidden="false" targetId="b619-5e9f-5deb-dfc9" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="44a0-90bc-e004-d70d" name="Venomthorn Parasite" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="da10-79a7-2053-4998" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="89b0-0a39-728e-ba48" name="Venomthorn Cannon" hidden="false" targetId="900b-a582-c184-18ce" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4bb-8adb-e2e8-38e6" name="Norn Crown" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="20e2-c0cc-fc61-9fa2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="10fd-f79b-87cf-7570" name="Norn Crown" hidden="false" targetId="6f1c-aac6-ad66-9c4a" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ccaa-5a33-5ce8-4f9e" name="Resonance Barb" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8da1-fcde-d7cc-10a8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="42ce-edf3-a6f5-2b05" name="Resonance Barb" hidden="false" targetId="38fb-19cb-6fc9-9355" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f88-08fe-183d-c0a8" name="Scythes of Tyran" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a287-471d-b8aa-daf9" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5814-c4a8-8919-f0a8" name="Scythes of Tyran" hidden="false" targetId="70da-a676-30dd-fa78" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4312-ec46-403b-b2e1" name="Hive Tyrant" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d35-2a7c-9ebf-2142" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6a7a-e30a-0d38-a7a0" name="Hive Tyrant" hidden="false" typeId="cea3-63fd-613a-6008" typeName="1. Unit">
+          <modifiers>
+            <modifier type="set" field="fe85-ee8f-d2d9-ad7c" value="12&quot;">
+              <conditions>
+                <condition field="selections" scope="4312-ec46-403b-b2e1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="960c-6104-cd8d-0878" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Unit Type" typeId="c15a-7470-6874-3870">Monster</characteristic>
+            <characteristic name="M" typeId="fe85-ee8f-d2d9-ad7c">8&quot;</characteristic>
+            <characteristic name="WS" typeId="bc88-26c6-13a7-8652">6</characteristic>
+            <characteristic name="BS" typeId="a155-55b2-af8d-3d7f">6</characteristic>
+            <characteristic name="S" typeId="11d3-3c6c-79a0-5b88">6</characteristic>
+            <characteristic name="T" typeId="ee17-ac8b-a4ce-3713">7</characteristic>
+            <characteristic name="W" typeId="b5f2-2a18-a740-edfa">4</characteristic>
+            <characteristic name="A" typeId="0b22-edd2-dfa9-b0a9">4</characteristic>
+            <characteristic name="I" typeId="73ed-811c-821a-28a3">6</characteristic>
+            <characteristic name="Ld" typeId="1a83-3556-dd65-614d">10</characteristic>
+            <characteristic name="Sv" typeId="4740-fde6-c158-c099">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a8e5-e11d-ad6a-0855" name="Brood Guard" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
+          <characteristics>
+            <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit may join units of Tyrant Guard even though they do not have the Monster type.  If this unit is equipped with Wings, it may not join Tyrant Guard units but may join units of Gargoyles instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="57f2-1c25-49b4-0cba" name="Tyranid Special Rules" hidden="false">
+          <infoLinks>
+            <infoLink id="5ded-868e-4aa6-7298" name="Synapse" hidden="false" targetId="6de1-e307-ef3f-a199" type="rule"/>
+            <infoLink id="94f6-e584-7d4c-7df3" name="Shadow in the Warp" hidden="false" targetId="feed-ddd8-c3f9-0f90" type="rule"/>
+            <infoLink id="7eb8-c638-2375-b777" name="The Swarm Descends" hidden="false" targetId="e446-6ffd-de5f-b6ca" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <infoLinks>
+        <infoLink id="3276-e224-0416-96b2" name="Psychic Barrier" hidden="false" targetId="41fc-7551-eec3-dea3" type="profile"/>
+        <infoLink id="08a4-4978-eee9-6eeb" name="Prehensile Tail" hidden="false" targetId="ded9-b605-d278-8234" type="profile"/>
+        <infoLink id="6b84-7ac4-21f9-2ae2" name="Firing Protocols (X)" hidden="false" targetId="d2c7-81dc-724a-074c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Firing Protocols (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="00d9-2719-f359-fef8" name="Psyker (x)" hidden="false" targetId="f292-d630-ac45-5b22" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Psyker (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0248-471a-dc88-f92f" name="Smite" hidden="false" targetId="5eaf-9c4a-985c-9222" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="927f-df71-0aa1-9cd9" name="New CategoryLink" hidden="false" targetId="87db-dd77-43c7-2283" primary="true"/>
+        <categoryLink id="8138-2e84-5e83-cb1c" name="Monster" hidden="false" targetId="0189-fd25-80ab-8f80" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a991-4a2a-fcd9-8404" name="Weapon Options" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a190-86b3-4f79-5b96" name="Lower Limbs Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1398-75a1-3bf3-d004">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20f5-7157-7ab8-45fb" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d54-12fa-9154-f328" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1398-75a1-3bf3-d004" name="Monstruous Scything Talons" hidden="false" collective="false" import="true" targetId="af23-e2e9-8220-1adf" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Lower)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="003d-ab40-84e5-c6ee" name="Monstruous Rending Claws" hidden="false" collective="false" import="true" targetId="23e1-50fd-e381-d8b8" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Lower)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="41c4-7f9e-295e-8623" name="Monstruous Bone Sword" hidden="false" collective="false" import="true" targetId="4b90-72c6-64ec-c91e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Lower)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="4061-7db1-4dae-cde8" name="Stranglethorn Cannon" hidden="false" collective="false" import="true" targetId="1bd8-943c-93cc-d611" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Lower)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="c4f9-72a5-05aa-9d0e" name="Heavy Venom Cannon" hidden="false" collective="false" import="true" targetId="b56c-c3ff-4456-23d7" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Lower)"/>
+                    <modifier type="append" field="name" value=" (Replaced)">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44a0-90bc-e004-d70d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="0487-52b9-8c7e-ee57" name="Lash Whip and Monstruous Bone Sword" hidden="false" collective="false" import="true" targetId="547e-4cd3-a44c-81aa" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Lower)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="7de3-8db5-bae8-aedd" name="Deathspitters with Slimer Maggots" hidden="false" collective="false" import="true" targetId="4315-2089-7577-76f0" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Lower)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="c35b-f6eb-af99-1b3a" name="Devourers with Brainleech worms" hidden="false" collective="false" import="true" targetId="f479-0642-a106-5d54" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Lower)"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c153-6736-4e48-60bb" name="Upper Limbs Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="5df5-0488-befe-5fc3">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d40b-f2c3-4692-381d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca47-b8b6-7eac-d1d9" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5df5-0488-befe-5fc3" name="Monstruous Scything Talons" hidden="false" collective="false" import="true" targetId="af23-e2e9-8220-1adf" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Upper)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="6064-3fdf-3e0d-765f" name="Monstruous Rending Claws" hidden="false" collective="false" import="true" targetId="23e1-50fd-e381-d8b8" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Upper)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="d272-64b0-8ea8-7873" name="Monstruous Bone Sword" hidden="false" collective="false" import="true" targetId="4b90-72c6-64ec-c91e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Upper)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="f37a-9254-88cc-f331" name="Stranglethorn Cannon" hidden="false" collective="false" import="true" targetId="1bd8-943c-93cc-d611" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="60eb-b971-16fd-d6da" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="4312-ec46-403b-b2e1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b56c-c3ff-4456-23d7" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="name" value=" (Upper)"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="4312-ec46-403b-b2e1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60eb-b971-16fd-d6da" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="25ea-2227-995c-89a6" name="Heavy Venom Cannon" hidden="false" collective="false" import="true" targetId="b56c-c3ff-4456-23d7" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="e2b6-c292-7cc6-0ed4" value="0.0">
+                      <conditions>
+                        <condition field="selections" scope="4312-ec46-403b-b2e1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ed8c-4f15-980c-acd6" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="append" field="name" value=" (Upper)"/>
+                    <modifier type="append" field="name" value=" (Replaced)">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44a0-90bc-e004-d70d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="4312-ec46-403b-b2e1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2b6-c292-7cc6-0ed4" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="610a-d914-19fb-a4a0" name="Lash Whip and Monstruous Bone Sword" hidden="false" collective="false" import="true" targetId="547e-4cd3-a44c-81aa" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Upper)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="3173-3282-4671-f797" name="Devourers with Brainleech worms" hidden="false" collective="false" import="true" targetId="f479-0642-a106-5d54" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Upper)"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="97de-a0c6-c151-2297" name="Deathspitters with Slimer Maggots" hidden="false" collective="false" import="true" targetId="4315-2089-7577-76f0" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (Upper)"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b7ef-de4a-d276-5700" name="Warlord" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="cdc9-e6be-ba30-0a8d" name="Warlord" hidden="false" collective="false" import="true" targetId="0c2f-9880-2d57-6ea0" type="selectionEntry"/>
+            <entryLink id="52b3-69fc-9ea9-9e08" name="Additional Warlord Trait" hidden="false" collective="false" import="true" targetId="7707-f938-baeb-0c97" type="selectionEntry"/>
+            <entryLink id="4ffe-aaa3-51d2-73f5" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="aae4-44c6-74bb-a1cc" type="selectionEntryGroup"/>
+            <entryLink id="42c4-db95-e876-9ea4" name="Additional Warlord Traits" hidden="false" collective="false" import="true" targetId="c547-9e16-0362-fdf2" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d1e3-ee21-ab4e-8c07" name="Wings" hidden="false" collective="false" import="true" targetId="960c-6104-cd8d-0878" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a56-0a7e-655a-2989" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c5a8-6d91-a215-cd0d" name="Monstrous Scything Talons" hidden="false" targetId="4140-98ea-1103-9490" type="profile">
+              <modifiers>
+                <modifier type="append" field="name" value=" (Wings)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="15.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="885c-b62c-b224-10a6" name="Bio Artifacts" hidden="false" collective="false" import="true" targetId="55c5-66c8-d895-3505" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d12-a5d0-ac93-4fe0" name="Hormagaunt Brood" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="9462-df49-040c-d9c3" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6ff7-bcd8-ab9b-4712" name="Troop" hidden="false" targetId="1966-eed8-9866-bcad" primary="true"/>
+        <categoryLink id="74d6-17a9-a91f-df27" name="Infantry" hidden="false" targetId="feff-0f2e-d57e-221c" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="08cd-1356-2376-ccb4" name="Hormagaunt" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef14-11d7-568a-2852" type="min"/>
+            <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caa1-0dd7-b677-e40a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e045-a657-016b-86c6" name="Hormagaunt" hidden="false" typeId="cea3-63fd-613a-6008" typeName="1. Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="c15a-7470-6874-3870">Infantry</characteristic>
+                <characteristic name="M" typeId="fe85-ee8f-d2d9-ad7c">3</characteristic>
+                <characteristic name="WS" typeId="bc88-26c6-13a7-8652">3</characteristic>
+                <characteristic name="BS" typeId="a155-55b2-af8d-3d7f">3</characteristic>
+                <characteristic name="S" typeId="11d3-3c6c-79a0-5b88">3</characteristic>
+                <characteristic name="T" typeId="ee17-ac8b-a4ce-3713">3</characteristic>
+                <characteristic name="W" typeId="b5f2-2a18-a740-edfa">1</characteristic>
+                <characteristic name="A" typeId="0b22-edd2-dfa9-b0a9">2</characteristic>
+                <characteristic name="I" typeId="73ed-811c-821a-28a3">4</characteristic>
+                <characteristic name="Ld" typeId="1a83-3556-dd65-614d">6</characteristic>
+                <characteristic name="Sv" typeId="4740-fde6-c158-c099">6+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="eb9f-108c-944d-e489" name="Scything Talons" hidden="false" collective="false" import="true" targetId="6761-852e-be17-06cc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99c5-9bc2-febd-6c45" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fb7-b573-f39a-03bb" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="6761-852e-be17-06cc" name="Scything Talons" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="af81-58d8-f624-ff94" name="Scything Talons" hidden="false" targetId="da55-bd45-95d2-6dc9" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f5c-cfd9-ca6c-38ba" name="Barbgaunt Brood" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2c62-6da6-24eb-a43b" name="New CategoryLink" hidden="false" targetId="e2ce-2e0b-e92f-3060" primary="true"/>
+        <categoryLink id="501b-e66a-70c7-c79b" name="Infantry" hidden="false" targetId="feff-0f2e-d57e-221c" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0fdd-575e-90c9-93fb" name="Barbgaunt" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0266-0c8a-482e-aec1" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="955f-9fd7-5377-3596" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3a20-fbd4-c952-78f2" name="Barbgaunt" hidden="false" typeId="cea3-63fd-613a-6008" typeName="1. Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="c15a-7470-6874-3870">Infantry</characteristic>
+                <characteristic name="M" typeId="fe85-ee8f-d2d9-ad7c">6&quot;</characteristic>
+                <characteristic name="WS" typeId="bc88-26c6-13a7-8652">3</characteristic>
+                <characteristic name="BS" typeId="a155-55b2-af8d-3d7f">3</characteristic>
+                <characteristic name="S" typeId="11d3-3c6c-79a0-5b88">4</characteristic>
+                <characteristic name="T" typeId="ee17-ac8b-a4ce-3713">4</characteristic>
+                <characteristic name="W" typeId="b5f2-2a18-a740-edfa">1</characteristic>
+                <characteristic name="A" typeId="0b22-edd2-dfa9-b0a9">1</characteristic>
+                <characteristic name="I" typeId="73ed-811c-821a-28a3">4</characteristic>
+                <characteristic name="Ld" typeId="1a83-3556-dd65-614d">6</characteristic>
+                <characteristic name="Sv" typeId="4740-fde6-c158-c099">6+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="c140-ef48-a636-6485" name="Barblauncher" hidden="false" collective="false" import="true" targetId="7db0-02d2-2ed0-1789" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5402-9166-edac-0e0c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40cb-e346-e0a9-c57c" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="14.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="aae4-44c6-74bb-a1cc" name="Warlord Traits" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c2f-9880-2d57-6ea0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16d5-eec9-8330-7aa1" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="cd60-06a8-4d39-7669" name="Alien Cunning" hidden="false" collective="false" import="true" targetId="c5a0-6fc5-9ac2-3785" type="selectionEntry"/>
+        <entryLink id="a8bb-6d73-d0c9-3763" name="Synaptic Lynchpin" hidden="false" collective="false" import="true" targetId="de28-9ac6-fe16-094c" type="selectionEntry"/>
+        <entryLink id="9321-9acb-e198-ea8e" name="Heightened Senses" hidden="false" collective="false" import="true" targetId="2552-9027-662a-b6cc" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c547-9e16-0362-fdf2" name="Additional Warlord Traits" hidden="true" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7707-f938-baeb-0c97" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c2f-9880-2d57-6ea0" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0da-1cc0-67ea-e2c6" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="ac03-1b9d-b429-ad0f" name="Heightened Senses" hidden="false" collective="false" import="true" targetId="2552-9027-662a-b6cc" type="selectionEntry"/>
+        <entryLink id="276e-77cd-0c08-7b67" name="Alien Cunning" hidden="false" collective="false" import="true" targetId="c5a0-6fc5-9ac2-3785" type="selectionEntry"/>
+        <entryLink id="9108-2eb9-09fa-581d" name="Synaptic Lynchpin" hidden="false" collective="false" import="true" targetId="de28-9ac6-fe16-094c" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="55c5-66c8-d895-3505" name="Bio Artifacts" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0bd3-3167-76c6-bd87" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6d61-a8b8-4f93-8c64" name="Venomthorn Parasite" hidden="false" collective="false" import="true" targetId="44a0-90bc-e004-d70d" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="acdf-14ab-af90-a841" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5d03-f3c0-4b8b-b944" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b56c-c3ff-4456-23d7" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="da10-79a7-2053-4998" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ccaa-5a33-5ce8-4f9e" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d4bb-8adb-e2e8-38e6" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7f88-08fe-183d-c0a8" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="acdf-14ab-af90-a841" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="58d9-57cf-d578-a3d1" name="Norn Crown" hidden="false" collective="false" import="true" targetId="d4bb-8adb-e2e8-38e6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="20e2-c0cc-fc61-9fa2" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ccaa-5a33-5ce8-4f9e" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44a0-90bc-e004-d70d" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7f88-08fe-183d-c0a8" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="53af-50ea-3bcd-8245" name="Resonance Barb" hidden="false" collective="false" import="true" targetId="ccaa-5a33-5ce8-4f9e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="8da1-fcde-d7cc-10a8" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44a0-90bc-e004-d70d" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d4bb-8adb-e2e8-38e6" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="7f88-08fe-183d-c0a8" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="5db2-988b-2f90-af1a" name="Scythes of Tyran" hidden="false" collective="false" import="true" targetId="7f88-08fe-183d-c0a8" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="a287-471d-b8aa-daf9" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ccaa-5a33-5ce8-4f9e" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d4bb-8adb-e2e8-38e6" type="atLeast"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="44a0-90bc-e004-d70d" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="f3aa-c50f-6ad1-2657" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af23-e2e9-8220-1adf" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4b8-ad55-41c6-8200" type="atLeast"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f3aa-c50f-6ad1-2657" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="7ba4-038e-f27f-d5ad" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="6de1-e307-ef3f-a199" name="Synapse" hidden="false">
+      <description>This special rule confers the following effects:
+○ Friendly Tyranid units wholly within 18” of a Tyranid unit with this special rule have the Stubborn special rule and change their Leadership (LD) Characteristic to 10.
+○ Friendly Tyranid Units within Synapse range also automatically Rally at the start of their movement phase.
+○ Tyranid Units that are not within Synapse range of a model with this special rule have the Frenzy Special Rule instead and use their base Leadership (LD) Characteristic.
+○ The unit with this special rule gains the Synapse keyword.</description>
+    </rule>
+    <rule id="feed-ddd8-c3f9-0f90" name="Shadow in the Warp" hidden="false">
+      <description>Tyranid units with this rule gain the benefits of the Deny the Witch and Adamantium Will special rules.</description>
+    </rule>
+    <rule id="e446-6ffd-de5f-b6ca" name="The Swarm Descends" hidden="false">
+      <description>Units instead of setting to Overwatch, may set to Counter charge. At the end of your opponent’s Charge Phase, after all charges have been declared and resolved. Any unit that set to Counter charge may attempt to charge as if it were your charge phase but with -2 to the Charge roll.</description>
+    </rule>
+    <rule id="7034-94d4-399f-e3cd" name="Spine Launcher" hidden="false">
+      <description>The number of attacks of this weapon is equal to the Attacks (A) characteristic of the equipped model.</description>
+    </rule>
+    <rule id="5f61-2275-989b-d14d" name="Variable" hidden="false">
+      <description>When attacking with this weapon, before making any attacks, you must declare which mode you will fire the weapons with. All attacks that phase must use the declared mode of fire.</description>
+    </rule>
+    <rule id="34b4-4760-6a00-a091" name="Parry" hidden="false">
+      <description>A model equipped with a weapon with this special rule that is allocated a wound in the Combat Phase, may, after armour saves, roll a D6. On the roll of a 6+, that wound is ignored. If the model equipped with this wargear has the Feel no Pain (x) special rule, they instead may re-roll results of 1 on for the Feel no Pain Roll.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="41c7-31b3-53d8-e1a1" name="Wings" publicationId="6ce0-fd6b-2a83-a367" page="7" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">A Tyranid Infantry or Monster unit with this Bio-Morph increases their Movement (M) characteristic to 12”.  It gains the Hammer of Wrath (1) and Deep strike special rules. The equipped model gains the Fly keyword.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="062a-cfeb-1de6-36b7" name="Scorch Bugs" publicationId="6ce0-fd6b-2a83-a367" page="7" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">Select a Fleshborer or Fleshborer Hive on the model equipped with this Bio Morph. Fleshborer’s gain the Rending (6+) special rule. Fleshborer Hives also gain the Rending (5+) special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dce4-6e16-9137-eb0d" name="Dessicator Larva" publicationId="6ce0-fd6b-2a83-a367" page="7" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">Select a unit equipped with Fleshborer or Fleshborer Hive to receive this Bio-Morph. It gains the Monster Hunter Special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cb2f-bc81-cecb-9e30" name="ElecroShock Grubs" publicationId="6ce0-fd6b-2a83-a367" page="7" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">Select a Fleshborer or Fleshborer Hive on the model equipped with this Bio Morph. Fleshborer’s gain the
+Haywire (6+) special rule. Fleshborer Hives also gain the Haywire (5+) special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cdd8-99c7-648c-a2a1" name="Chitin" publicationId="6ce0-fd6b-2a83-a367" page="7" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">Even the most basic Tyranid organisms have tough leathery hides and thin Armoured bone plates that
+afford them some protection against small arms fire. This confers a 6+ save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d67f-0718-245e-20a3" name="Reinforced Chitin" publicationId="6ce0-fd6b-2a83-a367" page="7" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">The plates of creatures with this kind of flesh exude a constant resin-like substance that hardens quickly creating a hardened layer of ablative Armour. This confers a 5+ save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="93fa-7032-51cc-a1a0" name="Hardened Carapace" publicationId="6ce0-fd6b-2a83-a367" page="7" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">The creature&apos;s Carapace is made of a thicker hardened chitin that is resistant to impacts and is far denser. It confers a 4+ save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e639-9b6f-f733-367e" name="Bonded Exoskeleton" publicationId="6ce0-fd6b-2a83-a367" page="6" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">The bone plates and chitin have fused with the bones of the creature to form a virtually impenetrable sheath. It confers a 3+ save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="504c-b2f2-227a-c01d" name="Armoured Shell" publicationId="6ce0-fd6b-2a83-a367" page="6" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">The largest organisms akin to walking tanks have Armoured shells with a consistency to Armoured ceramite that absorb impacts and heat. It confers a 2+ save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="56fc-b0fd-b321-54fe" name="Spine Fists" publicationId="6ce0-fd6b-2a83-a367" page="8" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol X</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">3</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spine Launcher</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b6a2-47f4-1b0b-ad60" name="Fleshborer" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">4</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="0e6a-f512-c9f3-6ba1" name="Devourer" publicationId="6ce0-fd6b-2a83-a367" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">4</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="0b71-0785-7f60-6163" name="Deathspitter" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">6</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d572-3c9d-4f18-5181" name="Spike Rifle" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Rapid Fire 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">4</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="fdfc-2d0e-f9d1-ea24" name="Flesh Hooks" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 2</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">6&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="e43e-0a2f-d4e5-ada5" name="Shardlauncher" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">3</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Indirect Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6b3c-67ec-a149-9b46" name="Deathspitters with Slimer Maggots" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">7</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning, Rending (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dce7-bca7-cd56-b339" name="Devourers with Brainleech worms" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 6</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">4</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning, Shred</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c1e7-8a6e-ae2c-3b2f" name="Stinger Salvo" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 3</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">5</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="11d1-e047-0cfd-e6b1" name="Barblauncher" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 3</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">4</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning, Indirect Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4069-03d3-39c3-2415" name="Bio Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 2</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">10</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">3</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d5ca-adff-a60f-5b6e" name="Fleshborer Hive" page="" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Rapid Fire 5</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">4</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7d0f-7e93-b7ff-d7d0" name="Impaler Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 2</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">8</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Ignores Cover, Indirect Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9b47-d3e0-69a9-d7ac" name="Tentaclids" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 4</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">5</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Skyfire, Haywire (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b39a-4910-54a3-fd00" name="Spore Mine Launcher (Ground)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">6</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast, Ignores Cover, Indirect Fire, Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2be7-1912-f82d-300c" name="Spore Mine Launcher (Air)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">6</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Skyfire, Ignores Cover, Indirect Fire, Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bcad-5c6e-31cd-8713" name="Strangleweb" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">2</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">-</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c560-5e30-4887-aaa3" name="Barbed Strangler" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">6</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast, Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="96e5-46ba-b012-7470" name="Stranglethorn Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">7</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Large Blast, Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ff94-26ec-3253-6168" name="Flamespurt" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">5</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1c42-c239-57a6-ccca" name="Acid Maw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">3</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="f0a6-9cfa-269c-33ce" name="Drool Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">6</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5681-9b29-234c-0561" name="Monstrous Acid Maw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">+1</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">3</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="743d-5747-eda8-db32" name="Acid Spray" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray, Shred</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3bd3-1521-38b7-618a" name="Bio Acid Spray" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">6</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Spray, Shred</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b0bb-08dd-2c34-712f" name="Close Combat Weapon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">-</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="ea9a-729d-0514-7565" name="Venom Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 2</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">7</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">2</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="19aa-0d7f-7046-729b" name="Heavy Venom Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 2</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">8</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">2</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="3c2f-0ca5-7a98-0492" name="Bio-Plasmic Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 4</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">7</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">2</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c94-7798-0b5f-41e8" name="Rupture Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Heavy 2</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">10</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">1</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Linked, Sunder</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7987-8965-d592-c615" name="Bio Plasma" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">7</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">2</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="da55-bd45-95d2-6dc9" name="Scything Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Reach</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4140-98ea-1103-9490" name="Monstrous Scything Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">+1</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">3</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Reach</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ae9e-110b-2ee4-3f5b" name="Rending Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Rending (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8f01-64a1-a7ee-9800" name="Monstrous Rending Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">+1</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Rending (4+), Shred</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b619-5e9f-5deb-dfc9" name="Bone Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">+1</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">3</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="855b-2195-370a-0e99" name="Monstrous Bone Sword" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">2</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="81ea-3cdb-e339-b0aa" name="Lash Whip" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Swift Strike, Reach</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8157-d924-082c-a37e" name="Grasping Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Precision Strikes, Rending (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fcd1-30a2-a7e8-d45f" name="Crushing Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">x2</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">2</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Unwieldy, Crushing (6+), Specialist Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eeac-9cbf-a060-e2d5" name="Monstrous Crushing Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">x2</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">1</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Unwieldy, Crushing (5+), Specialist Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0310-e00b-0c31-6c7a" name="Ravenous Maw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">x2</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">1</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Master-Crafted, Unwieldy, Specialist Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="90ee-de58-3952-cea5" name="Shovelling Claws" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">x2</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">2</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Unwieldy, Sweeping</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d7f0-b614-1bea-bd85" name="Grasping Tongue" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Reach</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="de92-b6d8-ddde-69c0" name="Hierodule Scything Talons" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">+4</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">2</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Specialist Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9277-1e33-a8e2-39e4" name="Bone Sabres" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">+2</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">1</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Bane, Master-Crafted, Parry</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b71d-b018-9317-a2c5" name="Powerful Limbs" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="fe64-df5b-2e99-0ae8" name="Scything Wings" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">4</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="c612-da8a-2b4d-651f" name="Distensible Jaw" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">x2</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">3</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Sunder</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ded9-b605-d278-8234" name="Prehensile Tail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="0078-614d-0621-aab5" name="Grasping Tail" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">+1</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Poison (3+), Shred</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0a2b-f425-ba81-df50" name="Wicked Spur" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">8</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">3</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a"/>
+      </characteristics>
+    </profile>
+    <profile id="1678-5378-b418-7534" name="Toxin Spike" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">1</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Poison (2+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c3a-5847-cecc-b7af" name="Bio Static Rattle" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Arcing (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4443-7d07-82a1-9160" name="Bone Mace" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">3</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Crushing (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="612b-a338-627c-8f9c" name="Thresher Scythe" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Sweeping (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="182d-f836-dbbd-818c" name="Shock Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 2</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">7</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">5</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Haywire (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5a60-b1fb-fd9f-d2b8" name="Bio Electric Pulse" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 6</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">5</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Arcing (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="273c-84ed-3d72-97fd" name="Toxic Lashes (Shooting)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Pistol 6</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">6&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Poison (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3322-d37f-3250-1acd" name="Toxic Lashes (Melee)" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">User</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Poison (4+), Specialist Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fc90-2767-13e7-4db8" name="Choking Spores" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">3</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">6</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast, Shred, Poison (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2c3f-bdc7-3f59-7f8e" name="The Horror (Shooting Phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic power in your opponent’s shooting phase. When this power is cast, select a single enemy unit within 18&quot; of the Psyker. That target suffers -1 to its
+Ballistic Skill (BS) characteristics until the end of the Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3879-924d-53bf-fcaa" name="Catalyst (Shooting/Combat Phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic power in your opponent’s Shooting phase or Comat Phase. When this power is cast, the Psyker and any attached unit gain the Feel No Pain (5+) special rule until the start of the end of the Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="22cd-9fed-fb61-b000" name="Onslaught (Shooting phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic power in your Shooting phase. When this Power is cast select a single friendly unit within 18&quot; of the Psyker that made a Normal move in the Movement Phase. That unit is counted as having remained stationary until the end of the Phase</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ed9b-5904-145e-7eda" name="Paroxysm (Movement/Combat Phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic power in your Opponent’s Movement phase or in either player Combat Phase. When this power is cast, select a single enemy unit within 18&quot; of
+the Psyker. That unit has its Initiative (I) Characteristic set to 1 until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f37c-bf3f-18c1-58b7" name="Psychic Scream (Shooting Phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic Power in your Shooting Phase. When this power is cast, all enemy units within 12&quot; of the Psyker take D6 Strength 5, AP 5 Pinning automatic hits.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d46-cefa-f03c-fea3" name="Dominion (Movement/Shooting/Combat Phase)" hidden="false" typeId="2a00-4329-9a3b-34a3" typeName="Psychic Power">
+      <characteristics>
+        <characteristic name="Description" typeId="ff3c-7073-b33d-a1a4">Cast this Psychic Power in your opponent’s Shooting Phase, Combat Phase or your Movement Phase. When this power is cast, All Tyranids on the battlefield are affected by the Synapse special rule until the end of the phase. Units Fleeing in the Movement Phase
+automatically Rally when this power is resolved</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3fcb-a251-8ef5-7a7f" name="Alien Cunning" hidden="false" typeId="c866-205c-0dd3-85b1" typeName="2.1 Warlord Trait">
+      <characteristics>
+        <characteristic name="Description" typeId="becb-d682-0b85-040f">If your army includes a model with this warlord trait, you can select up to 2 friendly Tyranid units in your army. They gain the Scout Special rule during deployment.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="183a-f43a-c310-0c3c" name="Synaptic Lynchpin" hidden="false" typeId="c866-205c-0dd3-85b1" typeName="2.1 Warlord Trait">
+      <characteristics>
+        <characteristic name="Description" typeId="becb-d682-0b85-040f">Extend the range of the Synapse rule a model with this Warlord Trait has to
+24”. If they do not have the Synapse rule, they gain the Synapse special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="db7f-3cf7-217c-efa8" name="Heightened Senses" hidden="false" typeId="c866-205c-0dd3-85b1" typeName="2.1 Warlord Trait">
+      <characteristics>
+        <characteristic name="Description" typeId="becb-d682-0b85-040f">A model with this Warlord trait can always set to Overwatch, even if it makes shooting attacks in the shooting phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="41fc-7551-eec3-dea3" name="Psychic Barrier" hidden="false" typeId="c5b0-edc1-3954-f457" typeName="2. Special Rule">
+      <characteristics>
+        <characteristic name="Description" typeId="7625-b45b-2ec6-2bfe">This unit has a 4+ Invulnerable Save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="900b-a582-c184-18ce" name="Venomthorn Cannon" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Assault 1</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">9</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">2</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Blast, Barrage (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="70da-a676-30dd-fa78" name="Scythes of Tyran" hidden="false" typeId="e769-cf83-70bf-e39b" typeName="4 Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="e073-8376-b400-62a1">Melee</characteristic>
+        <characteristic name="Range" typeId="adb6-ae76-701b-28cb">Melee</characteristic>
+        <characteristic name="Strength" typeId="3d6f-6114-326f-1301">+2</characteristic>
+        <characteristic name="AP" typeId="f25d-3bdc-8893-2344">3</characteristic>
+        <characteristic name="Rules" typeId="c3ab-1087-e246-484a">Rending (5+), Master-Crafted, Bane (Adeptus Mechanicus)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f1c-aac6-ad66-9c4a" name="Norn Crown" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">A model with this Bio Artifact gains Synapse. If they already have Synapse, the range is increased by 6&quot;.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="38fb-19cb-6fc9-9355" name="Resonance Barb" hidden="false" typeId="a36b-d7d4-4249-a209" typeName="3. Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="98c9-5aeb-b901-28d4">A model equipped with this Bio Artifact gains the Psyker (1) special rule and Psyker Keyword. If the unit already has the Psyker (x) special rule, increase the value of (x) by 1. In addition the equipped model can roll 3 Dice when attempting to cast a Psychic power, taking the best result.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
