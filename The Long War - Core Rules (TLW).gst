@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5a96-11db-b761-54f0" name="The Long War (TLW)" revision="3" battleScribeVersion="2.03" authorName="Sébastien Lesage" authorContact="necromundaklut@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="5a96-11db-b761-54f0" name="The Long War (TLW)" revision="1" battleScribeVersion="2.03" authorName="Sébastien Lesage" authorContact="necromundaklut@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
-    <costType id="7ba4-038e-f27f-d5ad" name="Pts" defaultCostLimit="-1" hidden="false"/>
+    <costType id="7ba4-038e-f27f-d5ad" name="Pts" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
-    <profileType id="cea3-63fd-613a-6008" name="Unit">
+    <profileType id="cea3-63fd-613a-6008" name="1. Unit">
       <characteristicTypes>
         <characteristicType id="c15a-7470-6874-3870" name="Unit Type"/>
         <characteristicType id="fe85-ee8f-d2d9-ad7c" name="M"/>
@@ -19,7 +19,7 @@
         <characteristicType id="4740-fde6-c158-c099" name="Sv"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="3e3e-11e1-0b8f-38ed" name="Armored Unit">
+    <profileType id="3e3e-11e1-0b8f-38ed" name="1.1 Armored Unit">
       <characteristicTypes>
         <characteristicType id="7fcf-ff58-e25d-6fd5" name="Unit Type"/>
         <characteristicType id="b760-0a34-4dc2-7361" name="M"/>
@@ -40,17 +40,17 @@
         <characteristicType id="8200-90f4-38f9-68e1" name="Description"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="a36b-d7d4-4249-a209" name="Wargear Item">
+    <profileType id="a36b-d7d4-4249-a209" name="3. Wargear Item">
       <characteristicTypes>
         <characteristicType id="98c9-5aeb-b901-28d4" name="Description"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="c866-205c-0dd3-85b1" name="Warlord Trait">
+    <profileType id="c866-205c-0dd3-85b1" name="2.1 Warlord Trait">
       <characteristicTypes>
         <characteristicType id="becb-d682-0b85-040f" name="Description"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="e769-cf83-70bf-e39b" name="Weapon">
+    <profileType id="e769-cf83-70bf-e39b" name="4. Weapon">
       <characteristicTypes>
         <characteristicType id="e073-8376-b400-62a1" name="Type"/>
         <characteristicType id="adb6-ae76-701b-28cb" name="Range"/>
@@ -59,12 +59,12 @@
         <characteristicType id="c3ab-1087-e246-484a" name="Rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="2a00-4329-9a3b-34a3" name="Psychic Power">
+    <profileType id="2a00-4329-9a3b-34a3" name="5.1 Psychic Power">
       <characteristicTypes>
         <characteristicType id="ff3c-7073-b33d-a1a4" name="Description"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="692d-82ae-67c8-335b" name="Psychic Weapon">
+    <profileType id="692d-82ae-67c8-335b" name="4.1 Psychic Weapon">
       <characteristicTypes>
         <characteristicType id="4ca5-4f78-059b-7910" name="Description"/>
         <characteristicType id="3c20-064d-6490-0afe" name="Type"/>
@@ -74,18 +74,31 @@
         <characteristicType id="c619-02a3-6669-f4ad" name="Special Rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="b5df-3fcb-880c-c4d7" name="Prayer">
+    <profileType id="b5df-3fcb-880c-c4d7" name="5.2 Prayer">
       <characteristicTypes>
         <characteristicType id="6a65-c34c-a211-d8b1" name="Description"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="97c8-9959-2410-a2cb" name="Machine Rite">
+    <profileType id="97c8-9959-2410-a2cb" name="5.3 Machine Rite">
       <characteristicTypes>
         <characteristicType id="0217-f9ef-cd8e-7985" name="Description"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="c5b0-edc1-3954-f457" name="2. Special Rule">
+      <characteristicTypes>
+        <characteristicType id="7625-b45b-2ec6-2bfe" name="Description"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
+    <categoryEntry id="87db-dd77-43c7-2283" name="HQ" hidden="false"/>
+    <categoryEntry id="1966-eed8-9866-bcad" name="Troops" hidden="false"/>
+    <categoryEntry id="e2ce-2e0b-e92f-3060" name="Elite" hidden="false"/>
+    <categoryEntry id="8518-3f3b-d289-d9aa" name="Fast Attack" hidden="false"/>
+    <categoryEntry id="e9ef-7ff2-41ce-8166" name="Heavy Support" hidden="false"/>
+    <categoryEntry id="5b95-9566-207a-c690" name="Flyer" hidden="false"/>
+    <categoryEntry id="771e-1cad-127e-832f" name="Fortification" hidden="false"/>
+    <categoryEntry id="96ed-6242-175c-50f2" name="Lord Of War" hidden="false"/>
     <categoryEntry id="feff-0f2e-d57e-221c" name="Infantry" hidden="false">
       <rules>
         <rule id="2b02-aa0e-334e-ba9d" name="Infantry" hidden="false">
@@ -95,7 +108,7 @@
     </categoryEntry>
     <categoryEntry id="bce2-4d4d-86e4-23e3" name="Cavalry" hidden="false">
       <rules>
-        <rule id="c81d-ab00-b3f3-5a77" name="Cavalry" hidden="false">
+        <rule id="f84b-1d7d-0b6c-5b01" name="Cavalry" hidden="false">
           <description>Cavalry types have the following:
 ●A Movement (M) characteristic of 12”.
 ●The Hammer of Wrath (1) special rule.
@@ -108,17 +121,6 @@
 ●Cavalry units that Advance in their previous movement phase may re-roll any Cover saves they make.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="eaaf-84d6-37c0-daed" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="0722-5161-d08b-d136" name="Outflank" hidden="false" targetId="3a5f-a6dc-eef1-1cac" type="rule"/>
-        <infoLink id="8ee9-ef4a-e1f3-874b" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
-        <infoLink id="e34a-4c27-e5a5-4fc0" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
-        <infoLink id="add0-884c-8dc8-8e8b" name="Fade &amp; Fire" hidden="false" targetId="7165-286e-2779-261a" type="rule"/>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="0189-fd25-80ab-8f80" name="Monster" hidden="false">
       <rules>
@@ -131,15 +133,6 @@
 ●Monsters may fire Rapid Fire and Heavy Weapons and still declare a charge in the Charge phase.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="7005-160e-cc29-4e9d" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="98fd-bf82-2341-73b4" name="Regeneration" hidden="false" targetId="7b24-65b5-08c4-e0c2" type="rule"/>
-        <infoLink id="991a-533b-9b8d-3b4b" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="731f-0921-df7e-9f25" name="Walker" hidden="false">
       <rules>
@@ -151,14 +144,6 @@
 ●Walkers may attack with all Shooting weapons they are equipped with in the Shooting phase.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="5d8b-b909-6af6-a787" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
-        <infoLink id="cce0-aed9-d8bf-e7b4" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="3876-2162-1728-56b0" name="Drone" hidden="false">
       <rules>
@@ -172,14 +157,6 @@
 ●Additional Rules for Drones can be found on Page 22 of Codex T’au Empire.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="ac55-b928-78c0-8a83" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="5748-6342-e14b-2df2" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="3203-e095-9773-ee56" name="Vehicle" hidden="false">
       <rules>
@@ -197,14 +174,6 @@
 ●Vehicles do not make Pinning tests except as a result of the Gets Hot! Special rule.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="8ff2-ac09-2a21-13f9" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="b0cd-753b-d2dc-a9f2" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="efb3-9dae-42d0-16cf" name="Battlesuit" hidden="false">
       <rules>
@@ -217,19 +186,6 @@
 ●Battlesuit units with the Fly keyword Advance 6”</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="2336-356f-fc3b-2482" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="44dd-d36b-08bd-1103" name="Deep Strike" hidden="false" targetId="4094-e926-d058-9bc6" type="rule"/>
-        <infoLink id="6d7e-e602-70f3-6033" name="Firing Protocols (X)" hidden="false" targetId="d2c7-81dc-724a-074c" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Firing Protocols (2)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="48bb-b381-3e6c-2c36" name="Swarm" hidden="false">
       <rules>
@@ -242,11 +198,6 @@
 ●Swarms ignore Instant Death unless the weapon has the Spray, Blast or Large Blast special rules.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="f202-b2b9-6bc2-8f96" name="Regeneration" hidden="false" targetId="7b24-65b5-08c4-e0c2" type="rule"/>
-        <infoLink id="dfd3-83e8-bc1a-2006" name="Hit &amp; Run" hidden="false" targetId="b874-7ae0-6d47-d220" type="rule"/>
-        <infoLink id="8c98-fc63-a80a-3580" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="3e4c-fcd0-ee54-2806" name="Automata" hidden="false">
       <rules>
@@ -261,11 +212,6 @@
 ●Automata may only declare a charge against the closest unit or units in the charge phase.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="a47a-a98b-f07b-389e" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
-        <infoLink id="7133-7b89-c24d-f81f" name="Slow and purposeful" hidden="false" targetId="1051-745c-ab3e-2eee" type="rule"/>
-        <infoLink id="dfaa-154e-5b21-a024" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="694b-b547-f7d7-a4d7" name="Jetbike" hidden="false">
       <rules>
@@ -282,17 +228,6 @@
 ●Jetbike units that Advance in their previous movement phase may re-roll any Cover saves they make.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="3ae1-eea0-cba3-c44c" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="8370-7c08-b9cf-5b05" name="Outflank" hidden="false" targetId="3a5f-a6dc-eef1-1cac" type="rule"/>
-        <infoLink id="97d1-4227-9326-bb1f" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
-        <infoLink id="7511-ab4c-430c-1c8b" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
-        <infoLink id="a5fb-896a-0da5-030f" name="Fade &amp; Fire" hidden="false" targetId="7165-286e-2779-261a" type="rule"/>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="75e3-8f49-bac8-64c7" name="Bike" hidden="false">
       <rules>
@@ -308,16 +243,6 @@
 ●Bike units that Advance in their previous movement phase may re-roll any Cover saves they make.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="9003-acf8-3c73-74f5" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="548d-a5d0-f2b3-ec52" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
-        <infoLink id="81b8-74be-0cf3-4659" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
-        <infoLink id="1040-01a6-72ed-66fa" name="Fade &amp; Fire" hidden="false" targetId="7165-286e-2779-261a" type="rule"/>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="0851-867e-7f49-077c" name="Beast" hidden="false">
       <rules>
@@ -330,20 +255,18 @@
 ●The Move Through Cover special rule.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="80c3-ad7a-f82b-5a4a" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="11ed-7162-b8d1-b53d" name="Sprint (X)" hidden="false" targetId="61f9-92d6-7bf0-7599" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Sprint (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="0673-6afd-ce21-9cf2" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
-        <infoLink id="87ea-4ac1-730b-46b0" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
-      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="309f-19eb-1615-0ccd" name="Fortification" hidden="false">
+      <rules>
+        <rule id="855c-f5c1-33e9-484f" name="Fortification" hidden="false">
+          <description>Fortification types have the following:
+●A Movement (M) characteristic of 0”.
+●Fortifications may attack with all Shooting weapons they are equipped with in the Shooting phase.
+●Fortifications have Armour facings and use the Vehicle damage chart (see 10.1)
+●Fortifications do not make Pinning tests.
+●Fortifications do not make Panic tests.</description>
+        </rule>
+      </rules>
     </categoryEntry>
     <categoryEntry id="4f56-10a2-c66e-7fca" name="Knight" hidden="false">
       <rules>
@@ -361,20 +284,10 @@
 ●Knights may move across models that are Infantry, Battlesuit, Cavalry, Automata, Beast, Swarm, Bike, Jetbike or Drone units with less than 4 wounds. However, a knight cannot end a move overlapping a model’s base.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="90f9-a9dc-fd24-c612" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
-        <infoLink id="e0bd-21c3-e3d3-2496" name="Fade &amp; Fire" hidden="false" targetId="7165-286e-2779-261a" type="rule"/>
-        <infoLink id="c9aa-c879-9f5d-82e1" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (2)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="9642-1207-852b-1273" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
-      </infoLinks>
     </categoryEntry>
     <categoryEntry id="ae27-3d5a-fb8a-70c7" name="Aircraft" hidden="false">
       <rules>
-        <rule id="257d-b61f-ba97-de2f" name="Aircraft" hidden="false">
+        <rule id="428d-f0de-2018-4194" name="Aircraft" hidden="false">
           <description>Aircraft Types have the following
 ●A Movement (M) characteristic of 20-30”.
 ●The Hammer of Wrath (1) special rule.
@@ -392,19 +305,15 @@
 ●Aircraft do not make Panic tests.</description>
         </rule>
       </rules>
-      <infoLinks>
-        <infoLink id="33f9-71b8-9113-92de" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="e5df-129a-437b-4f64" name="Outflank" hidden="false" targetId="3a5f-a6dc-eef1-1cac" type="rule"/>
-        <infoLink id="70f6-db9d-a302-c997" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
-        <infoLink id="4ecd-a2e7-7c55-c545" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
-      </infoLinks>
     </categoryEntry>
-    <categoryEntry name="Character" id="eceb-0e47-8300-407a" hidden="false"/>
+    <categoryEntry id="6c3c-8de9-b6e7-a88a" name="Character" hidden="false"/>
+    <categoryEntry id="a842-59be-7eae-8938" name="M41" hidden="false"/>
+    <categoryEntry id="8a3e-7f2b-e2bf-f163" name="Psyker" hidden="false"/>
+    <categoryEntry id="1118-1114-130d-8a22" name="Configuration" hidden="false"/>
   </categoryEntries>
+  <forceEntries>
+    <forceEntry id="5b0c-3748-26fd-7498" name="Unbound Army" hidden="true"/>
+  </forceEntries>
   <sharedRules>
     <rule id="0150-076d-165e-6e61" name="Adamantium Will" hidden="false">
       <description>When a unit with this special rule is targeted for an attack by a weapon with the Psychic Weapon special rule. The attack from the Psychic Weapon is resolved with -1 to all hit rolls and -1 to all wound rolls from that weapon.</description>
@@ -671,7 +580,7 @@ If rolling to Penetrate against an Armour Value, the weapons attack against the 
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="5eaf-9c4a-985c-9222" name="Smite" hidden="false" typeId="692d-82ae-67c8-335b" typeName="Psychic Weapon">
+    <profile id="5eaf-9c4a-985c-9222" name="Smite" hidden="false" typeId="692d-82ae-67c8-335b" typeName="4.1 Psychic Weapon">
       <characteristics>
         <characteristic name="Description" typeId="4ca5-4f78-059b-7910">All Psykers are equipped with the Smite Psychic Weapon in addition to any other powers they might know unless otherwise stated. A Psyker with this Psychic power is equipped with the following weapon:</characteristic>
         <characteristic name="Type" typeId="3c20-064d-6490-0afe">Assault 3</characteristic>
@@ -682,4 +591,154 @@ If rolling to Penetrate against an Armour Value, the weapons attack against the 
       </characteristics>
     </profile>
   </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="ce8c-6883-a39a-09b5" name="Aircraft Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="fc57-7ca0-f52f-8d2e" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
+        <infoLink id="f116-6586-a85b-d652" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="2e31-b7b2-5dc8-00f0" name="Outflank" hidden="false" targetId="3a5f-a6dc-eef1-1cac" type="rule"/>
+        <infoLink id="f8a7-7d71-b657-88bd" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="f511-7750-8719-33c5" name="Automata Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="1774-d0ea-84e3-0ac4" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
+        <infoLink id="65a6-bd3f-32c9-45b7" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+        <infoLink id="3b24-b6bf-4393-5ea9" name="Slow and purposeful" hidden="false" targetId="1051-745c-ab3e-2eee" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="4f30-5715-6687-37ce" name="Battlesuit Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="ce82-dfc3-9825-6d1f" name="Deep Strike" hidden="false" targetId="4094-e926-d058-9bc6" type="rule"/>
+        <infoLink id="a159-a22a-7e2a-032a" name="Firing Protocols (X)" hidden="false" targetId="d2c7-81dc-724a-074c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Firing Protocols (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ef0f-a356-1a3c-0628" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="70cb-485b-71c5-bec1" name="Beast Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="d73e-2a3a-87b0-2868" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
+        <infoLink id="5282-5a42-86ca-d049" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4aa9-7c10-ef29-77a6" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
+        <infoLink id="1a63-a6e8-3ee2-093b" name="Sprint (X)" hidden="false" targetId="61f9-92d6-7bf0-7599" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Sprint (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="66ba-1f3e-fc6c-3383" name="Bike Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="b65c-b173-67d3-5938" name="Fade &amp; Fire" hidden="false" targetId="7165-286e-2779-261a" type="rule"/>
+        <infoLink id="9bc2-f1f3-e560-5ad6" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
+        <infoLink id="fe96-738d-810f-d768" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+        <infoLink id="65a2-5516-9c00-045e" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="1a8c-718e-e4ca-c49e" name="Cavalry Special Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="566a-3c57-76b8-99bd" name="Fade &amp; Fire" hidden="false" targetId="7165-286e-2779-261a" type="rule"/>
+        <infoLink id="28a3-38b2-75de-8df9" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
+        <infoLink id="da29-1d0e-aa4d-5cdb" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bf05-cc35-4221-a7b1" name="Outflank" hidden="false" targetId="3a5f-a6dc-eef1-1cac" type="rule"/>
+        <infoLink id="43ba-6edf-0659-1cfd" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="65be-1890-38d0-f0da" name="Drone Special Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="3cb0-6ee1-0f87-b261" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+        <infoLink id="79db-f9b6-39a3-1a54" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="1d81-285b-7cdf-bbcf" name="Jetbike Special Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="d283-8afd-feec-4c76" name="Fade &amp; Fire" hidden="false" targetId="7165-286e-2779-261a" type="rule"/>
+        <infoLink id="5efd-9f80-cab6-a969" name="Fleet" hidden="false" targetId="478d-e9f0-d019-b08a" type="rule"/>
+        <infoLink id="b2d9-c57e-51ad-1bb5" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="276c-e9d6-323b-0728" name="Outflank" hidden="false" targetId="3a5f-a6dc-eef1-1cac" type="rule"/>
+        <infoLink id="d1f3-b5cb-4040-ea31" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="930f-b9ca-f865-cc25" name="Knight Special Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="dff8-88ca-7bee-9c38" name="Fade &amp; Fire" hidden="false" targetId="7165-286e-2779-261a" type="rule"/>
+        <infoLink id="89a6-9df4-50be-74e9" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4f60-c584-2b6a-145c" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
+        <infoLink id="70c2-5576-cfc9-117e" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="03d4-5e41-49a0-893f" name="Monster Special Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="1480-db84-e2bf-150d" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="cc84-f165-2dac-6c32" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
+        <infoLink id="088a-c04e-88b8-eb11" name="Regeneration" hidden="false" targetId="7b24-65b5-08c4-e0c2" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="92f9-f07f-399e-69bd" name="Swarm Special Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="772c-4f69-5759-dfa5" name="Hit &amp; Run" hidden="false" targetId="b874-7ae0-6d47-d220" type="rule"/>
+        <infoLink id="6afe-5c98-239a-9feb" name="Move through Cover" hidden="false" targetId="6d38-c55d-ca21-accc" type="rule"/>
+        <infoLink id="882f-810c-c8c6-d9d7" name="Regeneration" hidden="false" targetId="7b24-65b5-08c4-e0c2" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="8eb2-9489-1174-1711" name="Vehicle Special Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="b321-df38-14bf-cdfb" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="cd38-ac95-cc6a-adf9" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="4035-e5f3-77ee-f5e5" name="Walker Special Rules" hidden="false">
+      <infoLinks>
+        <infoLink id="95a8-c895-c792-16b0" name="Hammer of Wrath (X)" hidden="false" targetId="5284-a442-b9a6-d0ce" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d1ea-4c30-55dd-cd7a" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+  </sharedInfoGroups>
 </gameSystem>
