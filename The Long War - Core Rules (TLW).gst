@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="5a96-11db-b761-54f0" name="The Long War (TLW)" revision="3" battleScribeVersion="2.03" authorName="Sébastien Lesage" authorContact="necromundaklut@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="5a96-11db-b761-54f0" name="The Long War (TLW)" revision="3" battleScribeVersion="2.03" authorName="Sébastien Lesage" authorContact="necromundaklut@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
-    <costType id="7ba4-038e-f27f-d5ad" name="Pts" defaultCostLimit="-1" hidden="false"/>
+    <costType id="7ba4-038e-f27f-d5ad" name="Pts" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="cea3-63fd-613a-6008" name="Unit">
@@ -403,8 +403,30 @@
         <infoLink id="4ecd-a2e7-7c55-c545" name="Relentless" hidden="false" targetId="86eb-a85f-ba32-6f33" type="rule"/>
       </infoLinks>
     </categoryEntry>
-    <categoryEntry name="Character" id="eceb-0e47-8300-407a" hidden="false"/>
+    <categoryEntry id="eceb-0e47-8300-407a" name="Character" hidden="false"/>
+    <categoryEntry id="febc-2459-5cf4-f340" name="HQ" hidden="false"/>
+    <categoryEntry id="1959-d39d-2780-30e5" name="Troop" hidden="false"/>
+    <categoryEntry id="b030-fc8d-37ed-b951" name="Elite" hidden="false"/>
+    <categoryEntry id="89a3-9784-f487-54d5" name="Fast Attack" hidden="false"/>
+    <categoryEntry id="b218-ef2e-6acc-0b40" name="Heavy Support" hidden="false"/>
+    <categoryEntry id="5671-121e-8e2c-7bee" name="Lord Of War" hidden="false"/>
+    <categoryEntry id="a123-b7e5-8705-af36" name="Fortification" hidden="false"/>
+    <categoryEntry id="ed42-0c7d-b430-a10a" name="Flyer" hidden="false"/>
   </categoryEntries>
+  <forceEntries>
+    <forceEntry id="eac3-9ce7-b61b-a97a" name="Unbound Army Detachment" hidden="false">
+      <categoryLinks>
+        <categoryLink id="97db-5e9c-5458-bbe7" name="HQ" hidden="false" targetId="febc-2459-5cf4-f340" primary="false"/>
+        <categoryLink id="6d41-30c0-26b7-9924" name="Elite" hidden="false" targetId="b030-fc8d-37ed-b951" primary="false"/>
+        <categoryLink id="9ce3-cc3e-a57d-253d" name="Fast Attack" hidden="false" targetId="89a3-9784-f487-54d5" primary="false"/>
+        <categoryLink id="f532-ce10-c3b9-183d" name="Flyer" hidden="false" targetId="ed42-0c7d-b430-a10a" primary="false"/>
+        <categoryLink id="3e52-a012-af1c-5999" name="Heavy Support" hidden="false" targetId="b218-ef2e-6acc-0b40" primary="false"/>
+        <categoryLink id="3c9d-91d3-2114-b3a2" name="Troop" hidden="false" targetId="1959-d39d-2780-30e5" primary="false"/>
+        <categoryLink id="cc55-9875-b12f-e6b5" name="Lord Of War" hidden="false" targetId="5671-121e-8e2c-7bee" primary="false"/>
+        <categoryLink id="5bc0-f1cc-aaf2-0bf0" name="Fortification" hidden="false" targetId="a123-b7e5-8705-af36" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
   <sharedRules>
     <rule id="0150-076d-165e-6e61" name="Adamantium Will" hidden="false">
       <description>When a unit with this special rule is targeted for an attack by a weapon with the Psychic Weapon special rule. The attack from the Psychic Weapon is resolved with -1 to all hit rolls and -1 to all wound rolls from that weapon.</description>
